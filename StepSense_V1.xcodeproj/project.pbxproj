@@ -1,0 +1,786 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24497C5D238A47B500D0E94E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 24497C5C238A47B400D0E94E /* GoogleService-Info.plist */; };
+		24497C5E238A47B500D0E94E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 24497C5C238A47B400D0E94E /* GoogleService-Info.plist */; };
+		24497C5F238A47B500D0E94E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 24497C5C238A47B400D0E94E /* GoogleService-Info.plist */; };
+		245C1CFB2389D0490096C997 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 245C1CFA2389D0490096C997 /* GradientView.swift */; };
+		24DC704D23779901005DECF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DC704C23779901005DECF5 /* AppDelegate.swift */; };
+		24DC704F23779901005DECF5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DC704E23779901005DECF5 /* SceneDelegate.swift */; };
+		24DC705123779901005DECF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DC705023779901005DECF5 /* ViewController.swift */; };
+		24DC705423779901005DECF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24DC705223779901005DECF5 /* Main.storyboard */; };
+		24DC705723779901005DECF5 /* StepSense_V1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 24DC705523779901005DECF5 /* StepSense_V1.xcdatamodeld */; };
+		24DC705923779904005DECF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24DC705823779904005DECF5 /* Assets.xcassets */; };
+		24DC705C23779904005DECF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24DC705A23779904005DECF5 /* LaunchScreen.storyboard */; };
+		24DC706723779904005DECF5 /* StepSense_V1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DC706623779904005DECF5 /* StepSense_V1Tests.swift */; };
+		24DC707223779904005DECF5 /* StepSense_V1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DC707123779904005DECF5 /* StepSense_V1UITests.swift */; };
+		24DC708023779F4B005DECF5 /* searchDevicesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DC707F23779F4B005DECF5 /* searchDevicesVC.swift */; };
+		24DC7082237BE7C6005DECF5 /* showDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DC7081237BE7C5005DECF5 /* showDataController.swift */; };
+		89424604E8A842926F98E944 /* Pods_StepSense_V1_StepSense_V1UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CB1FBA3263EA6430497A325 /* Pods_StepSense_V1_StepSense_V1UITests.framework */; };
+		94D0E8D0D9D4F81141AFD82B /* Pods_StepSense_V1Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BA2F7CFDE144E56BDEF6F8C /* Pods_StepSense_V1Tests.framework */; };
+		B445BF6B6A64B13E1A067C73 /* Pods_StepSense_V1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 876E07ED5E8CE2225750E737 /* Pods_StepSense_V1.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24DC706323779904005DECF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24DC704123779901005DECF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24DC704823779901005DECF5;
+			remoteInfo = StepSense_V1;
+		};
+		24DC706E23779904005DECF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24DC704123779901005DECF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24DC704823779901005DECF5;
+			remoteInfo = StepSense_V1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24497C5C238A47B400D0E94E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		245C1CFA2389D0490096C997 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		24DC704923779901005DECF5 /* StepSense_V1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StepSense_V1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24DC704C23779901005DECF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		24DC704E23779901005DECF5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		24DC705023779901005DECF5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		24DC705323779901005DECF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		24DC705623779901005DECF5 /* StepSense_V1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StepSense_V1.xcdatamodel; sourceTree = "<group>"; };
+		24DC705823779904005DECF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24DC705B23779904005DECF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		24DC705D23779904005DECF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24DC706223779904005DECF5 /* StepSense_V1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StepSense_V1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		24DC706623779904005DECF5 /* StepSense_V1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepSense_V1Tests.swift; sourceTree = "<group>"; };
+		24DC706823779904005DECF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24DC706D23779904005DECF5 /* StepSense_V1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StepSense_V1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		24DC707123779904005DECF5 /* StepSense_V1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepSense_V1UITests.swift; sourceTree = "<group>"; };
+		24DC707323779904005DECF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24DC707F23779F4B005DECF5 /* searchDevicesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchDevicesVC.swift; sourceTree = "<group>"; };
+		24DC7081237BE7C5005DECF5 /* showDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = showDataController.swift; sourceTree = "<group>"; };
+		6BAEDA0BE5DD0DD027EFE0D9 /* Pods-StepSense_V1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StepSense_V1.release.xcconfig"; path = "Target Support Files/Pods-StepSense_V1/Pods-StepSense_V1.release.xcconfig"; sourceTree = "<group>"; };
+		6CB1FBA3263EA6430497A325 /* Pods_StepSense_V1_StepSense_V1UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StepSense_V1_StepSense_V1UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78C43F6C8CD53462E41CA565 /* Pods-StepSense_V1Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StepSense_V1Tests.release.xcconfig"; path = "Target Support Files/Pods-StepSense_V1Tests/Pods-StepSense_V1Tests.release.xcconfig"; sourceTree = "<group>"; };
+		876E07ED5E8CE2225750E737 /* Pods_StepSense_V1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StepSense_V1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BA2F7CFDE144E56BDEF6F8C /* Pods_StepSense_V1Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StepSense_V1Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACC029E10239E1E978022A8A /* Pods-StepSense_V1Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StepSense_V1Tests.debug.xcconfig"; path = "Target Support Files/Pods-StepSense_V1Tests/Pods-StepSense_V1Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C2141B4BECA7D6744504DE74 /* Pods-StepSense_V1-StepSense_V1UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StepSense_V1-StepSense_V1UITests.debug.xcconfig"; path = "Target Support Files/Pods-StepSense_V1-StepSense_V1UITests/Pods-StepSense_V1-StepSense_V1UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EB50102E7C669FB9D9C58646 /* Pods-StepSense_V1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StepSense_V1.debug.xcconfig"; path = "Target Support Files/Pods-StepSense_V1/Pods-StepSense_V1.debug.xcconfig"; sourceTree = "<group>"; };
+		FC7C10136244779ECD501CF3 /* Pods-StepSense_V1-StepSense_V1UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StepSense_V1-StepSense_V1UITests.release.xcconfig"; path = "Target Support Files/Pods-StepSense_V1-StepSense_V1UITests/Pods-StepSense_V1-StepSense_V1UITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24DC704623779901005DECF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B445BF6B6A64B13E1A067C73 /* Pods_StepSense_V1.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24DC705F23779904005DECF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94D0E8D0D9D4F81141AFD82B /* Pods_StepSense_V1Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24DC706A23779904005DECF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89424604E8A842926F98E944 /* Pods_StepSense_V1_StepSense_V1UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24DC704023779901005DECF5 = {
+			isa = PBXGroup;
+			children = (
+				24DC704B23779901005DECF5 /* StepSense_V1 */,
+				24DC706523779904005DECF5 /* StepSense_V1Tests */,
+				24DC707023779904005DECF5 /* StepSense_V1UITests */,
+				24DC704A23779901005DECF5 /* Products */,
+				3E8926328FFC03852F83E711 /* Pods */,
+				A416C18E4FD0E44546E47756 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		24DC704A23779901005DECF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24DC704923779901005DECF5 /* StepSense_V1.app */,
+				24DC706223779904005DECF5 /* StepSense_V1Tests.xctest */,
+				24DC706D23779904005DECF5 /* StepSense_V1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24DC704B23779901005DECF5 /* StepSense_V1 */ = {
+			isa = PBXGroup;
+			children = (
+				24DC704C23779901005DECF5 /* AppDelegate.swift */,
+				24DC704E23779901005DECF5 /* SceneDelegate.swift */,
+				24DC705023779901005DECF5 /* ViewController.swift */,
+				24DC7081237BE7C5005DECF5 /* showDataController.swift */,
+				24DC705223779901005DECF5 /* Main.storyboard */,
+				24DC707F23779F4B005DECF5 /* searchDevicesVC.swift */,
+				24DC705823779904005DECF5 /* Assets.xcassets */,
+				24DC705A23779904005DECF5 /* LaunchScreen.storyboard */,
+				24DC705D23779904005DECF5 /* Info.plist */,
+				24DC705523779901005DECF5 /* StepSense_V1.xcdatamodeld */,
+				245C1CFA2389D0490096C997 /* GradientView.swift */,
+				24497C5C238A47B400D0E94E /* GoogleService-Info.plist */,
+			);
+			path = StepSense_V1;
+			sourceTree = "<group>";
+		};
+		24DC706523779904005DECF5 /* StepSense_V1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				24DC706623779904005DECF5 /* StepSense_V1Tests.swift */,
+				24DC706823779904005DECF5 /* Info.plist */,
+			);
+			path = StepSense_V1Tests;
+			sourceTree = "<group>";
+		};
+		24DC707023779904005DECF5 /* StepSense_V1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				24DC707123779904005DECF5 /* StepSense_V1UITests.swift */,
+				24DC707323779904005DECF5 /* Info.plist */,
+			);
+			path = StepSense_V1UITests;
+			sourceTree = "<group>";
+		};
+		3E8926328FFC03852F83E711 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EB50102E7C669FB9D9C58646 /* Pods-StepSense_V1.debug.xcconfig */,
+				6BAEDA0BE5DD0DD027EFE0D9 /* Pods-StepSense_V1.release.xcconfig */,
+				C2141B4BECA7D6744504DE74 /* Pods-StepSense_V1-StepSense_V1UITests.debug.xcconfig */,
+				FC7C10136244779ECD501CF3 /* Pods-StepSense_V1-StepSense_V1UITests.release.xcconfig */,
+				ACC029E10239E1E978022A8A /* Pods-StepSense_V1Tests.debug.xcconfig */,
+				78C43F6C8CD53462E41CA565 /* Pods-StepSense_V1Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A416C18E4FD0E44546E47756 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				876E07ED5E8CE2225750E737 /* Pods_StepSense_V1.framework */,
+				6CB1FBA3263EA6430497A325 /* Pods_StepSense_V1_StepSense_V1UITests.framework */,
+				9BA2F7CFDE144E56BDEF6F8C /* Pods_StepSense_V1Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24DC704823779901005DECF5 /* StepSense_V1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24DC707623779904005DECF5 /* Build configuration list for PBXNativeTarget "StepSense_V1" */;
+			buildPhases = (
+				E5EE3C8753E77DB6510BC285 /* [CP] Check Pods Manifest.lock */,
+				24DC704523779901005DECF5 /* Sources */,
+				24DC704623779901005DECF5 /* Frameworks */,
+				24DC704723779901005DECF5 /* Resources */,
+				75335AC086389A53873A7040 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StepSense_V1;
+			productName = StepSense_V1;
+			productReference = 24DC704923779901005DECF5 /* StepSense_V1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		24DC706123779904005DECF5 /* StepSense_V1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24DC707923779904005DECF5 /* Build configuration list for PBXNativeTarget "StepSense_V1Tests" */;
+			buildPhases = (
+				57866150A4CE5C8EEEDB6EE7 /* [CP] Check Pods Manifest.lock */,
+				24DC705E23779904005DECF5 /* Sources */,
+				24DC705F23779904005DECF5 /* Frameworks */,
+				24DC706023779904005DECF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24DC706423779904005DECF5 /* PBXTargetDependency */,
+			);
+			name = StepSense_V1Tests;
+			productName = StepSense_V1Tests;
+			productReference = 24DC706223779904005DECF5 /* StepSense_V1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		24DC706C23779904005DECF5 /* StepSense_V1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24DC707C23779904005DECF5 /* Build configuration list for PBXNativeTarget "StepSense_V1UITests" */;
+			buildPhases = (
+				3960F4C6DB5F78C3269FC5EB /* [CP] Check Pods Manifest.lock */,
+				24DC706923779904005DECF5 /* Sources */,
+				24DC706A23779904005DECF5 /* Frameworks */,
+				24DC706B23779904005DECF5 /* Resources */,
+				A10E9F0D02E55DBBA195838C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24DC706F23779904005DECF5 /* PBXTargetDependency */,
+			);
+			name = StepSense_V1UITests;
+			productName = StepSense_V1UITests;
+			productReference = 24DC706D23779904005DECF5 /* StepSense_V1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24DC704123779901005DECF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Ajit Ravisaravanan";
+				TargetAttributes = {
+					24DC704823779901005DECF5 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					24DC706123779904005DECF5 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 24DC704823779901005DECF5;
+					};
+					24DC706C23779904005DECF5 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 24DC704823779901005DECF5;
+					};
+				};
+			};
+			buildConfigurationList = 24DC704423779901005DECF5 /* Build configuration list for PBXProject "StepSense_V1" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24DC704023779901005DECF5;
+			productRefGroup = 24DC704A23779901005DECF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24DC704823779901005DECF5 /* StepSense_V1 */,
+				24DC706123779904005DECF5 /* StepSense_V1Tests */,
+				24DC706C23779904005DECF5 /* StepSense_V1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24DC704723779901005DECF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24DC705C23779904005DECF5 /* LaunchScreen.storyboard in Resources */,
+				24497C5D238A47B500D0E94E /* GoogleService-Info.plist in Resources */,
+				24DC705923779904005DECF5 /* Assets.xcassets in Resources */,
+				24DC705423779901005DECF5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24DC706023779904005DECF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24497C5E238A47B500D0E94E /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24DC706B23779904005DECF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24497C5F238A47B500D0E94E /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3960F4C6DB5F78C3269FC5EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StepSense_V1-StepSense_V1UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57866150A4CE5C8EEEDB6EE7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StepSense_V1Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75335AC086389A53873A7040 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StepSense_V1/Pods-StepSense_V1-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StepSense_V1/Pods-StepSense_V1-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StepSense_V1/Pods-StepSense_V1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A10E9F0D02E55DBBA195838C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StepSense_V1-StepSense_V1UITests/Pods-StepSense_V1-StepSense_V1UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StepSense_V1-StepSense_V1UITests/Pods-StepSense_V1-StepSense_V1UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StepSense_V1-StepSense_V1UITests/Pods-StepSense_V1-StepSense_V1UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5EE3C8753E77DB6510BC285 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StepSense_V1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24DC704523779901005DECF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24DC708023779F4B005DECF5 /* searchDevicesVC.swift in Sources */,
+				24DC705123779901005DECF5 /* ViewController.swift in Sources */,
+				24DC705723779901005DECF5 /* StepSense_V1.xcdatamodeld in Sources */,
+				24DC704D23779901005DECF5 /* AppDelegate.swift in Sources */,
+				245C1CFB2389D0490096C997 /* GradientView.swift in Sources */,
+				24DC7082237BE7C6005DECF5 /* showDataController.swift in Sources */,
+				24DC704F23779901005DECF5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24DC705E23779904005DECF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24DC706723779904005DECF5 /* StepSense_V1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24DC706923779904005DECF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24DC707223779904005DECF5 /* StepSense_V1UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24DC706423779904005DECF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24DC704823779901005DECF5 /* StepSense_V1 */;
+			targetProxy = 24DC706323779904005DECF5 /* PBXContainerItemProxy */;
+		};
+		24DC706F23779904005DECF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24DC704823779901005DECF5 /* StepSense_V1 */;
+			targetProxy = 24DC706E23779904005DECF5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		24DC705223779901005DECF5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24DC705323779901005DECF5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		24DC705A23779904005DECF5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24DC705B23779904005DECF5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24DC707423779904005DECF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		24DC707523779904005DECF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24DC707723779904005DECF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB50102E7C669FB9D9C58646 /* Pods-StepSense_V1.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 835587M8S9;
+				INFOPLIST_FILE = StepSense_V1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AJ.StepSense-V1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		24DC707823779904005DECF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BAEDA0BE5DD0DD027EFE0D9 /* Pods-StepSense_V1.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 835587M8S9;
+				INFOPLIST_FILE = StepSense_V1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AJ.StepSense-V1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		24DC707A23779904005DECF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACC029E10239E1E978022A8A /* Pods-StepSense_V1Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 835587M8S9;
+				INFOPLIST_FILE = StepSense_V1Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AJ.StepSense-V1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StepSense_V1.app/StepSense_V1";
+			};
+			name = Debug;
+		};
+		24DC707B23779904005DECF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78C43F6C8CD53462E41CA565 /* Pods-StepSense_V1Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 835587M8S9;
+				INFOPLIST_FILE = StepSense_V1Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AJ.StepSense-V1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StepSense_V1.app/StepSense_V1";
+			};
+			name = Release;
+		};
+		24DC707D23779904005DECF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2141B4BECA7D6744504DE74 /* Pods-StepSense_V1-StepSense_V1UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 835587M8S9;
+				INFOPLIST_FILE = StepSense_V1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AJ.StepSense-V1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StepSense_V1;
+			};
+			name = Debug;
+		};
+		24DC707E23779904005DECF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC7C10136244779ECD501CF3 /* Pods-StepSense_V1-StepSense_V1UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 835587M8S9;
+				INFOPLIST_FILE = StepSense_V1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AJ.StepSense-V1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StepSense_V1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24DC704423779901005DECF5 /* Build configuration list for PBXProject "StepSense_V1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24DC707423779904005DECF5 /* Debug */,
+				24DC707523779904005DECF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24DC707623779904005DECF5 /* Build configuration list for PBXNativeTarget "StepSense_V1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24DC707723779904005DECF5 /* Debug */,
+				24DC707823779904005DECF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24DC707923779904005DECF5 /* Build configuration list for PBXNativeTarget "StepSense_V1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24DC707A23779904005DECF5 /* Debug */,
+				24DC707B23779904005DECF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24DC707C23779904005DECF5 /* Build configuration list for PBXNativeTarget "StepSense_V1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24DC707D23779904005DECF5 /* Debug */,
+				24DC707E23779904005DECF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		24DC705523779901005DECF5 /* StepSense_V1.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				24DC705623779901005DECF5 /* StepSense_V1.xcdatamodel */,
+			);
+			currentVersion = 24DC705623779901005DECF5 /* StepSense_V1.xcdatamodel */;
+			path = StepSense_V1.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 24DC704123779901005DECF5 /* Project object */;
+}
